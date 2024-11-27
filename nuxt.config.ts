@@ -8,7 +8,7 @@ const locales = CONFIG.locales as LocaleObject[];
 export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
 
-  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/content", "nuxt-svgo"],
+  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/content", "nuxt-svgo", "@nuxthub/core"],
   icon: {
     mode: "svg",
     customCollections: [{ dir: "app/assets/icons", prefix: "local" }]
