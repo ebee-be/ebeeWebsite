@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "title": "Uniting Expertise with Your Vision",
+    "subtitle": "At ScrewFast, we take pride in providing comprehensive solutions and exceptional service in the hardware and construction industry. Our experienced team is dedicated to supporting your project from inception to completion with a range of specialized services.  ",
+    "actions": {
+      "primary": {
+        "size": "xl",
+        "label": "Schedule a call",
+        "trailingIcon": "lucide:chevron-right"
+      }
+    }
+  },
+  "services": [
+    {
+      "isRightSection": true,
+      "title": "Delivering Expert Guidance",
+      "subtitle": "Embarking on a construction project can be overwhelming. With our professional consultation services, we guide you through every stage, ensuring you make informed decisions. Whether you are a DIY enthusiast or a skilled contractor, our experts are on hand to offer tailored advice on product selection, project scope, and compliance with local regulations.",
+      "single": false,
+      "images": [
+        {
+          "alt": "Blueprints and digital tablet with construction plans.",
+          "src": "https://screwfast.uk/_astro/blueprints-image.DxAt2gto_Z1nET0w.avif"
+        },
+        {
+          "alt": "Person working in the office",
+          "src": "https://screwfast.uk/_astro/person-working.aUGgRiE__Z1Ex6re.avif"
+        }
+      ]
+    },
+    {
+      "isRightSection": false,
+      "title": "Transforming Designs into Reality",
+      "subtitle": "Our skilled craftsmen bring precision and excellence to every construction project. From minor installations to substantial structural work, ScrewFast offers reliable construction services to turn your plans into tangible outcomes. We ensure the highest standards of safety and workmanship, utilizing top-quality tools and materials from our extensive inventory.",
+      "images": [
+        {
+          "alt": "Construction site before and after",
+          "src": "https://screwfast.uk/_astro/before-after.BntBToq6_1pQiXH.avif"
+        }
+      ],
+      "btnExists": true,
+      "btnTitle": "Learn More",
+      "btnURL": "#"
+    },
+    {
+      "isRightSection": true,
+      "title": "Navigating Projects with Professional Oversight",
+      "subtitle": "Effective project management is at the heart of any successful build. ScrewFast provides thorough planning and robust management services that keep your project on time and within budget. Let us handle the complexities of workflow coordination, resource allocation, and stakeholder communication while you focus on your vision.",
+      "single": false,
+      "images": [
+        {
+          "alt": "Construction workers orchestrating a project",
+          "src": "https://screwfast.uk/_astro/construction-workers.XhU7Ouf4_rvHxa.avif"
+        },
+        {
+          "alt": "Aerial view of managed construction",
+          "src": "https://screwfast.uk/_astro/aerial-view.CeV30CXX_2eQkv0.avif"
+        }
+      ]
+    },
+    {
+      "isRightSection": false,
+      "title": "Ensuring Long-lasting Performance",
+      "subtitle": "Our commitment to your project doesn't end at completion. ScrewFast offers ongoing maintenance and support services to ensure your construction's longevity and performance. From regular check-ups to emergency assistance, our responsive team is there to provide seamless support.",
+      "images": [
+        {
+          "alt": "Man in orange and black vest wearing white helmet holding yellow and black power tool",
+          "src": "https://screwfast.uk/_astro/using-tools.BrEE8t5H_Z18thc7.avif"
+        }
+      ]
+    },
+    {
+      "isRightSection": true,
+      "title": "Crafting Bespoke Strategies for Unique Challenges",
+      "subtitle": "For our larger enterprise clients, ScrewFast offers custom solutions designed to meet specific industry challenges. By understanding your unique needs, we engineer tailored strategies aimed at optimizing your operations, enhancing efficiency, and driving your business forward.",
+      "single": false,
+      "images": [
+        {
+          "alt": "In progress building structure",
+          "src": "https://screwfast.uk/_astro/progress-building.Cjca0suI_9JMmn.avif"
+        },
+        {
+          "alt": "Brown and gray building under construction",
+          "src": "https://screwfast.uk/_astro/under-construction.DfISh1yq_Z2nBnL2.avif"
+        }
+      ],
+      "btnExists": true,
+      "btnTitle": "Read more",
+      "btnURL": "#"
+    }
+  ]
+}

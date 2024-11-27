@@ -1,0 +1,107 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --color-amber-50: #ffffea;
+  --color-amber-100: #fffbc5;
+  --color-amber-200: #fff885;
+  --color-amber-300: #ffee46;
+  --color-amber-400: #ffe01b;
+  --color-amber-500: #fcbe00;
+  --color-amber-600: #e29400;
+  --color-amber-700: #bb6902;
+  --color-amber-800: #985108;
+  --color-amber-900: #7c420b;
+  --color-amber-950: #482200;
+}
+
+@layer base {
+  * {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+
+    @apply box-border select-none;
+  }
+
+  html {
+    height: 100vh;
+    color-scheme: light dark;
+    overscroll-behavior: contain;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family: "Poppins" serif;
+    overscroll-behavior: contain;
+    -webkit-text-size-adjust: 100%;
+
+    padding: env(safe-area-inset-top) env(safe-area-inset-right)
+      env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+
+  #__nuxt {
+    @apply contents;
+  }
+
+  input:-webkit-autofill {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: rgb(var(--ui-foreground)) !important;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  input[type="file"]::file-selector-button {
+    display: none;
+  }
+
+  details > summary {
+    list-style: none;
+  }
+
+  details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+  details > summary::-webkit-details-marker /* Safari */ {
+    display: none;
+  }
+
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+}

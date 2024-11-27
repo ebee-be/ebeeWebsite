@@ -1,0 +1,55 @@
+{
+  "ui": {
+    "colors": {
+      "neutral": "stone"
+    }
+  },
+  "icons": {
+    "theme": {
+      "light": "lucide:sun",
+      "dark": "lucide:moon",
+      "system": "lucide:computer-minimal"
+    }
+  },
+  "locales": [
+    {
+      "dir": "ltr",
+      "code": "en-US",
+      "name": "English",
+      "file": "content/en-US/translations.json"
+    },
+    {
+      "dir": "ltr",
+      "code": "np-NP",
+      "name": "Nepali",
+      "file": "content/np-NP/translations.json"
+    }
+  ],
+  "navigation": {
+    "navLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Products", "href": "/products" },
+      { "label": "Contact Us", "href": "/contact-us" }
+    ],
+    "footerLinks": [
+      {
+        "section": "Ecosystem",
+        "links": [
+          { "name": "Documentation", "url": "/" },
+          { "name": "Tools & Equipment", "url": "/products" },
+          { "name": "Construction Services", "url": "/services" }
+        ]
+      },
+      {
+        "section": "Company",
+        "links": [
+          { "name": "About us", "url": "#" },
+          { "name": "Blog", "url": "/" },
+          { "name": "Careers", "url": "#" },
+          { "name": "Customers", "url": "#" }
+        ]
+      }
+    ]
+  }
+}

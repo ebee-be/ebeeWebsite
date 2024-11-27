@@ -1,0 +1,147 @@
+{
+  "hero": {
+    "title": "Kickstart your projects with <span class='text-[var(--ui-primary)]'>ebee.com</span>",
+    "subtitle": "The best part of our job is knowing we help our clients succeed. When we help our clients reach their goal or help their business pass a new milestone, it’s the most satisfying moment.",
+    "actions": {
+      "primary": { "label": "Get Started" },
+      "secondary": { "label": "Contact Us" }
+    },
+    "ratings": {
+      "value": 4.5,
+      "totalReviews": "12.7k+"
+    }
+  },
+  "features": {
+    "title": "Meeting Industry Demands",
+    "subtitle": "At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals.",
+    "features": [
+      {
+        "title": "Dedicated Teams",
+        "description": "Benefit from our committed teams who ensure your success is personal. Count on expert guidance and exceptional results throughout your project journey.",
+        "icon": "lucide:users"
+      },
+      {
+        "title": "Simplicity and Affordability",
+        "description": "Find easy-to-use, affordable solutions with ScrewFast's line of tools and equipment. Our products make procurement simple and keep projects within budget.",
+        "icon": "lucide:badge-check"
+      },
+      {
+        "title": "Comprehensive Documentation",
+        "description": "Integrate with ease using ScrewFast's exhaustive guides and libraries. Achieve seamless product adoption with our full suite of documentation designed for your success.",
+        "icon": "lucide:book-text"
+      },
+      {
+        "title": "User-Centric Design",
+        "description": "Experience the difference with ScrewFast's user-focused design — where functionality meets practicality for an enhanced work experience.",
+        "icon": "lucide:contact"
+      }
+    ]
+  },
+  "techStacks": {
+    "title": "Powered by Emerging technologies",
+    "subtitle": "Experience the latest technologies chosen by industry giants...",
+    "entries": [
+      { "type": "icon", "name": "logos:javascript" },
+      { "type": "icon", "name": "logos:laravel" },
+      { "type": "icon", "name": "logos:react" },
+      { "type": "icon", "name": "logos:flutter" },
+      { "type": "image", "src": "https://tastyigniter.com/images/logos/logo-padded.png" }
+    ]
+  },
+  "services": {
+    "title": "Customize ScrewFast's offerings to perfectly suit your hardware and construction needs.",
+    "tabs": [
+      {
+        "heading": "Dedicated Teams",
+        "content": "Benefit from our committed teams who ensure your success is personal. Count on expert guidance and exceptional results throughout your project journey.",
+        "icon": "lucide:wrench",
+        "image": {
+          "src": "https://screwfast.uk/_astro/automated-tools.NvGNhe84_2g2652.avif",
+          "alt": ""
+        }
+      },
+      {
+        "heading": "Simplicity and Affordability",
+        "content": "Find easy-to-use, affordable solutions with ScrewFast's line of tools and equipment. Our products make procurement simple and keep projects within budget.",
+        "icon": "lucide:swatch-book",
+        "image": {
+          "src": "https://screwfast.uk/_astro/dashboard-image.DUm-YPUR_Lj6KN.avif",
+          "alt": ""
+        }
+      },
+      {
+        "heading": "Comprehensive Documentation",
+        "content": "Integrate with ease using ScrewFast's exhaustive guides and libraries. Achieve seamless product adoption with our full suite of documentation designed for your success.",
+        "icon": "lucide:book-marked",
+        "image": {
+          "src": "https://screwfast.uk/_astro/construction-image.6K-xbeL4_Z17XmsG.avif",
+          "alt": ""
+        }
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Fast-Track Your Projects",
+    "subtitle": "At ScrewFast, we ensure a swift start with instant account setup. Experience the speed of construction redefined.",
+    "testimonials": [
+      {
+        "author": "Samantha Ruiz",
+        "role": "Chief Operating Officer | ConstructIt Inc.",
+        "avatarSrc": "https://screwfast.uk/_astro/photo-1593104547489-5cfb3839a3b5_Zbfcks.webp",
+        "content": "ScrewFast dramatically boosted our project efficiency. Setup was instant, and their rapid response times are phenomenal. Truly a game-changer in hardware and construction support!"
+      }
+    ],
+    "statistics": [
+      {
+        "count": "70k+",
+        "description": "customers equipped — from DIY to major construction firms"
+      },
+      {
+        "count": "35%",
+        "description": "uptick in project efficiency with ScrewFast tools and services"
+      },
+      {
+        "count": "15.3%",
+        "description": "reduction in maintenance costs reported by long-term clients"
+      },
+      {
+        "count": "2x",
+        "description": "quicker assembly using innovative fastening solutions"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's Build Together",
+    "subtitle": "ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Ask us anything about our brand and products, and get factual responses.",
+    "faqs": [
+      {
+        "question": "What types of tools are included in the Starter Kit?",
+        "answer": "The Starter Kit features essential hand and power tools for diverse DIY projects, including hammers, drills, screwdrivers, and a variety of fasteners. It's a curated selection to help beginners and experienced DIYers alike tackle most home improvement tasks."
+      },
+      {
+        "question": "Can I upgrade from the Starter Kit to the Professional Toolbox?",
+        "answer": "Absolutely! You can upgrade to the Professional Toolbox at any time to access a wider range of high-quality tools, enjoy priority customer support, and receive exclusive content. Contact our support team for a seamless transition."
+      },
+      {
+        "question": "What discounts are available for bulk orders through the Professional Toolbox plan?",
+        "answer": "Professional Toolbox members are entitled to exclusive discounts on bulk orders, the percentage of which may vary depending on the order volume. Get in touch with us to discuss your needs, and we'll provide a tailored discount structure."
+      },
+      {
+        "question": "What kind of customer support can I expect?",
+        "answer": "All our customers receive dedicated email support. With the Starter Kit, you'll receive our standard support, while the Professional Toolbox plan upgrades you to priority support, meaning faster response times and specialized assistance."
+      },
+      {
+        "question": "How current are the online resources and tutorials?",
+        "answer": "We regularly update our online resources and tutorials to reflect the latest trends in DIY and construction, as well as introductions to new tools and techniques. Our material aims to be comprehensive and user-friendly for all skill levels."
+      },
+      {
+        "question": "Does ScrewFast offer services for large-scale construction projects?",
+        "answer": "Yes, our Enterprise Solutions are designed for larger companies requiring comprehensive services. We provide consultation, planning, and supply of high-grade tools and materials, as well as staffing solutions for substantial construction needs. Contact us for a customized quote."
+      }
+    ]
+  }
+}
